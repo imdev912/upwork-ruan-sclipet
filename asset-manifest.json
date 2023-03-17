@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/upwork-ruan-sclipet/static/css/main.874c033b.css",
-    "main.js": "/upwork-ruan-sclipet/static/js/main.b559e21f.js",
+    "main.js": "/upwork-ruan-sclipet/static/js/main.39eaca66.js",
     "static/css/296.44a9753a.chunk.css": "/upwork-ruan-sclipet/static/css/296.44a9753a.chunk.css",
-    "static/js/296.d31f0a63.chunk.js": "/upwork-ruan-sclipet/static/js/296.d31f0a63.chunk.js",
+    "static/js/296.42ae3ee4.chunk.js": "/upwork-ruan-sclipet/static/js/296.42ae3ee4.chunk.js",
     "static/js/915.707bf044.chunk.js": "/upwork-ruan-sclipet/static/js/915.707bf044.chunk.js",
     "static/css/152.c1c614b5.chunk.css": "/upwork-ruan-sclipet/static/css/152.c1c614b5.chunk.css",
     "static/js/152.27bcfda1.chunk.js": "/upwork-ruan-sclipet/static/js/152.27bcfda1.chunk.js",
-    "static/js/737.47732868.chunk.js": "/upwork-ruan-sclipet/static/js/737.47732868.chunk.js",
+    "static/js/737.467a4bc5.chunk.js": "/upwork-ruan-sclipet/static/js/737.467a4bc5.chunk.js",
     "static/js/102.8e9f15b0.chunk.js": "/upwork-ruan-sclipet/static/js/102.8e9f15b0.chunk.js",
     "static/js/126.3b758961.chunk.js": "/upwork-ruan-sclipet/static/js/126.3b758961.chunk.js",
     "static/js/121.9e854e35.chunk.js": "/upwork-ruan-sclipet/static/js/121.9e854e35.chunk.js",
@@ -16,7 +16,7 @@
     "static/js/174.2d396efa.chunk.js": "/upwork-ruan-sclipet/static/js/174.2d396efa.chunk.js",
     "static/js/196.1af36fab.chunk.js": "/upwork-ruan-sclipet/static/js/196.1af36fab.chunk.js",
     "static/js/790.c80ceb35.chunk.js": "/upwork-ruan-sclipet/static/js/790.c80ceb35.chunk.js",
-    "static/js/801.eca56fa3.chunk.js": "/upwork-ruan-sclipet/static/js/801.eca56fa3.chunk.js",
+    "static/js/801.73d163f2.chunk.js": "/upwork-ruan-sclipet/static/js/801.73d163f2.chunk.js",
     "static/js/780.755f1675.chunk.js": "/upwork-ruan-sclipet/static/js/780.755f1675.chunk.js",
     "static/css/628.44a9753a.chunk.css": "/upwork-ruan-sclipet/static/css/628.44a9753a.chunk.css",
     "static/js/628.569129b9.chunk.js": "/upwork-ruan-sclipet/static/js/628.569129b9.chunk.js",
@@ -54,13 +54,13 @@
     "static/media/montserrat-vietnamese-500-normal.woff2": "/upwork-ruan-sclipet/static/media/montserrat-vietnamese-500-normal.0f3d20baf3dff383f36b.woff2",
     "index.html": "/upwork-ruan-sclipet/index.html",
     "main.874c033b.css.map": "/upwork-ruan-sclipet/static/css/main.874c033b.css.map",
-    "main.b559e21f.js.map": "/upwork-ruan-sclipet/static/js/main.b559e21f.js.map",
+    "main.39eaca66.js.map": "/upwork-ruan-sclipet/static/js/main.39eaca66.js.map",
     "296.44a9753a.chunk.css.map": "/upwork-ruan-sclipet/static/css/296.44a9753a.chunk.css.map",
-    "296.d31f0a63.chunk.js.map": "/upwork-ruan-sclipet/static/js/296.d31f0a63.chunk.js.map",
+    "296.42ae3ee4.chunk.js.map": "/upwork-ruan-sclipet/static/js/296.42ae3ee4.chunk.js.map",
     "915.707bf044.chunk.js.map": "/upwork-ruan-sclipet/static/js/915.707bf044.chunk.js.map",
     "152.c1c614b5.chunk.css.map": "/upwork-ruan-sclipet/static/css/152.c1c614b5.chunk.css.map",
     "152.27bcfda1.chunk.js.map": "/upwork-ruan-sclipet/static/js/152.27bcfda1.chunk.js.map",
-    "737.47732868.chunk.js.map": "/upwork-ruan-sclipet/static/js/737.47732868.chunk.js.map",
+    "737.467a4bc5.chunk.js.map": "/upwork-ruan-sclipet/static/js/737.467a4bc5.chunk.js.map",
     "102.8e9f15b0.chunk.js.map": "/upwork-ruan-sclipet/static/js/102.8e9f15b0.chunk.js.map",
     "126.3b758961.chunk.js.map": "/upwork-ruan-sclipet/static/js/126.3b758961.chunk.js.map",
     "121.9e854e35.chunk.js.map": "/upwork-ruan-sclipet/static/js/121.9e854e35.chunk.js.map",
@@ -69,7 +69,7 @@
     "174.2d396efa.chunk.js.map": "/upwork-ruan-sclipet/static/js/174.2d396efa.chunk.js.map",
     "196.1af36fab.chunk.js.map": "/upwork-ruan-sclipet/static/js/196.1af36fab.chunk.js.map",
     "790.c80ceb35.chunk.js.map": "/upwork-ruan-sclipet/static/js/790.c80ceb35.chunk.js.map",
-    "801.eca56fa3.chunk.js.map": "/upwork-ruan-sclipet/static/js/801.eca56fa3.chunk.js.map",
+    "801.73d163f2.chunk.js.map": "/upwork-ruan-sclipet/static/js/801.73d163f2.chunk.js.map",
     "780.755f1675.chunk.js.map": "/upwork-ruan-sclipet/static/js/780.755f1675.chunk.js.map",
     "628.44a9753a.chunk.css.map": "/upwork-ruan-sclipet/static/css/628.44a9753a.chunk.css.map",
     "628.569129b9.chunk.js.map": "/upwork-ruan-sclipet/static/js/628.569129b9.chunk.js.map",
@@ -80,6 +80,6 @@
   },
   "entrypoints": [
     "static/css/main.874c033b.css",
-    "static/js/main.b559e21f.js"
+    "static/js/main.39eaca66.js"
   ]
 }
