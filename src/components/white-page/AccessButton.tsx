@@ -14,8 +14,8 @@ const AccessButton = (props: {link: string}) => {
                 style={{
                     fontSize: "18px",
                     fontWeight: "700",
+                    textAlign: "center",
                     textDecoration: "none",
-                    lineHeight: "1",
                     color: "#FFFFFF",
                     borderRadius: "8px",
                     padding: "18px 3rem",

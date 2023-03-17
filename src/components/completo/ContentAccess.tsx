@@ -7,7 +7,8 @@ const ContentAccess = () => {
         <div
             style={{
                 fontSize: "20px",
-                fontWeight: "700"
+                fontWeight: "700",
+                textAlign: "center"
             }}
         >
             <span>

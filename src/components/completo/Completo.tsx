@@ -4,6 +4,7 @@ import bg1mines from "../../assets/images/BG1-Mines.webp";
 import { Loader } from "../Loader";
 import { lazy, Suspense } from "react";
 import ContentAccess from "./ContentAccess";
+import "./completo.css";
 
 const EmbedVideo = lazy(() => import("../aula-gratis/EmbedVideo"));
 const Countdown = lazy(() => import("../aula-gratis/Countdown"));
@@ -33,16 +34,7 @@ const Completo = () => {
                     paddingBottom: "80px"
                 }}
             >
-                <div
-                    style={{
-                        textAlign: "center",
-                        color: "#FFFFFF",
-                        fontSize: "2rem",
-                        fontWeight: "800",
-                        lineHeight: "1.3",
-                        paddingTop: "30px"
-                    }}
-                >
+                <div className="intro text-center">
                     <div>
                         ESSE MÉTODO É O RESPONSÁVEL POR
                     </div>
@@ -58,14 +50,7 @@ const Completo = () => {
                     </div>
                 </div>
 
-                <div
-                    style={{
-                        textAlign: "center",
-                        color: "#3FF9F6",
-                        fontSize: "18px",
-                        fontWeight: "800"
-                    }}
-                >
+                <div className="hint text-center">
                     ASSISTA O VÍDEO PARA ENTENDER COMO CONSEGUIR O MESMO
                 </div>
 
@@ -80,27 +65,16 @@ const Completo = () => {
                 </Suspense>
 
                 <Suspense fallback={<Loader />}>
-                    <ContentAccess />
+                    <div className="content-access">
+                        <ContentAccess />
+                    </div>
                 </Suspense>
 
                 <Suspense fallback={<Loader />}>
-                    <div
-                        style={{
-                            display: "flex",
-                            alignItems: "end",
-                            gap: "20px",
-                            marginBottom: "20px"
-                        }}
-                    >
+                    <div className="countdown">
                         <Countdown />
 
-                        <div
-                            style={{
-                                fontSize: "20px",
-                                fontWeight: "bolder",
-                                paddingBlock: "10px"
-                            }}
-                        >
+                        <div className="countdown--message">
                             ESPERO QUE FAÇA A ESCOLHA CERTA!
                         </div>
                     </div>
@@ -111,19 +85,18 @@ const Completo = () => {
                         link="https://pay.kiwify.com.br/Z7u8BVj"
                     />
                 </Suspense>
-
-                <Suspense fallback={<Loader />}>
-                    <div
-                        style={{
-                            paddingBlock: "50px",
-                            marginTop: "50px",
-                            backgroundColor: "#FFFFFF"
-                        }}
-                        >
-                        <FacebookComments />
-                    </div>
-                </Suspense>
             </div>
+
+            <Suspense fallback={<Loader />}>
+                <div
+                    style={{
+                        paddingBlock: "50px",
+                        backgroundColor: "#FFFFFF"
+                    }}
+                >
+                    <FacebookComments />
+                </div>
+            </Suspense>
         </>
     );
 }

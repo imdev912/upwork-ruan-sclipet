@@ -44,6 +44,7 @@ const Countdown = () => {
         <div
             style={{
                 display: "flex",
+                justifyContent: "center",
                 gap: "5px"
             }}
         >

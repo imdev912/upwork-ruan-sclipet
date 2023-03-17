@@ -33,3 +33,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
     overflow-x: hidden;
 }
+
+.text-center {
+    text-align: center;
+}

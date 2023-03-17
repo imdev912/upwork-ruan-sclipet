@@ -8,7 +8,7 @@ export const InfoBanner = (props: React.PropsWithChildren) => {
                 fontWeight: "700",
                 lineHeight: "1.2rem",
                 letterSpacing: "0",
-                paddingBlock: "10px",
+                padding: "10px",
                 backgroundColor: "#DD0000"
             }}
         >
