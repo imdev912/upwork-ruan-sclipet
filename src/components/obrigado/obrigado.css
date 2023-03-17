@@ -1,0 +1,19 @@
+.flex-column {
+    flex-direction: column;
+}
+
+.obrigado-cards {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 85px;
+}
+
+@media only screen and (min-width: 768px) {
+    .flex-md-row {
+        flex-direction: row;
+    }
+
+    .obrigado-cards {
+        gap: 20px;
+    }
+}

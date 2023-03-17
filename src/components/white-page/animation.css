@@ -1,0 +1,47 @@
+@-moz-keyframes pulsate-fwd {
+
+    0%,
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+
+    50% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1)
+    }
+}
+
+@-webkit-keyframes pulsate-fwd {
+
+    0%,
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+
+    50% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1)
+    }
+}
+
+@keyframes pulsate-fwd {
+
+    0%,
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+
+    50% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1)
+    }
+}
+
+.pulsate-fwd {
+    animation: 1.5s ease-in-out infinite pulsate-fwd;
+    -moz-animation: 1.5s ease-in-out infinite pulsate-fwd;
+    -webkit-animation: 1.5s ease-in-out infinite pulsate-fwd;
+}
