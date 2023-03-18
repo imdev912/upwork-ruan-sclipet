@@ -1,3 +1,7 @@
+import gmail from "../../assets/images/gmail.svg"
+import outlook from "../../assets/images/outlook.svg"
+import yahoo from "../../assets/images/yahoo.svg"
+
 const RightCard = () => {
     return (
         <div
@@ -68,7 +72,7 @@ const RightCard = () => {
                         rel="noreferrer"
                     >
                         <img
-                            src="https://sitepagafacil.com/wp-content/uploads/2023/01/gmail.svg"
+                            src={gmail}
                             width={54}
                             height={54}
                             alt="gmail"
@@ -82,7 +86,7 @@ const RightCard = () => {
                         rel="noreferrer"
                     >
                         <img
-                            src="https://sitepagafacil.com/wp-content/uploads/2023/01/outlook.svg"
+                            src={outlook}
                             width={54}
                             height={54}
                             alt="outlook"
@@ -96,7 +100,7 @@ const RightCard = () => {
                         rel="noreferrer"
                     >
                         <img
-                            src="https://sitepagafacil.com/wp-content/uploads/2023/01/yahoo.svg"
+                            src={yahoo}
                             width={72}
                             height={72}
                             alt="yahoo"

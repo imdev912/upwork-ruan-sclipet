@@ -1,5 +1,6 @@
 import PulsateButton from "../white-page/PulsateButton";
 import bg5 from "../../assets/images/BG-5.webp";
+import dias7 from "../../assets/images/7-Dias.webp";
 
 const Warranty = () => {
     return (
@@ -66,7 +67,7 @@ const Warranty = () => {
             <br />
 
             <img
-                src="https://sitepagafacil.com/wp-content/uploads/2023/01/7-Dias.webp"
+                src={dias7}
                 width={823}
                 height={483}
                 alt=""
