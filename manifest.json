@@ -7,7 +7,7 @@
       "sizes": "32x32",
       "type": "image/x-icon"
     },{
-        "src": "./images/favicon-64x64.ico",
+        "src": "./images/favicon-64x64.png",
         "type": "image/png",
         "sizes": "64x64"
     },
