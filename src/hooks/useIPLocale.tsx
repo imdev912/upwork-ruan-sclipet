@@ -19,7 +19,7 @@ export const useIPLocale = () => {
     }
 
     React.useEffect(() => {
-        // interact && updateCity();
+        interact && updateCity();
     }, [interact]);
 
     return city;

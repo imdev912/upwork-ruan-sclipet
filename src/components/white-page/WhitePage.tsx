@@ -2,7 +2,7 @@ import { Helmet } from "react-helmet";
 import { Header } from "./Header"
 import WatchingNow from "./WatchingNow";
 import { YouTubeVideo } from "../YouTubeVideo";
-import AccessButton from "./AccessButton";
+import PulsateButton from "./PulsateButton";
 import bg1mines from "../../assets/images/BG1-Mines.webp";
 
 const WhitePage = () => {
@@ -52,7 +52,8 @@ const WhitePage = () => {
                     />
                 </div>
 
-                <AccessButton
+                <PulsateButton
+                    text="QUERO TER MEU ACESSO!"
                     link="https://pay.kiwify.com.br/Z7u8BVj"
                 />
             </div>

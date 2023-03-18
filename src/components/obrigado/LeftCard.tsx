@@ -1,4 +1,4 @@
-import AccessButton from "./AccessButton";
+import PulsateButton from "./PulsateButton";
 
 const LeftCard = () => {
     return (
@@ -65,7 +65,7 @@ const LeftCard = () => {
                     </b>
                 </div>
 
-                <AccessButton />
+                <PulsateButton />
             </div>
         </div>
     );

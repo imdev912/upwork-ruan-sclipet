@@ -9,7 +9,7 @@ const EmbedVideo = lazy(() => import("./EmbedVideo"));
 const WatchingNow = lazy(() => import("../white-page/WatchingNow"));
 const OfferAvailable = lazy(() => import("./OfferAvailable"));
 const Countdown = lazy(() => import("./Countdown"));
-const AccessButton = lazy(() => import("../white-page/AccessButton"));
+const PulsateButton = lazy(() => import("../white-page/PulsateButton"));
 const FacebookComments = lazy(() => import("./FacebookComments"));
 
 const AulaGratis = () => {
@@ -62,7 +62,8 @@ const AulaGratis = () => {
                 </Suspense>
 
                 <Suspense fallback={<Loader />}>
-                    <AccessButton
+                    <PulsateButton
+                        text="QUERO TER MEU ACESSO!"
                         link="https://pay.kiwify.com.br/uTQZf2J"
                     />
                 </Suspense>
